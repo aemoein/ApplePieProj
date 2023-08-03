@@ -30,32 +30,6 @@ class ViewController: UIViewController {
         updateGameState()
     }
     
-    var listOfWords = [
-      "buccaneer", "swift", "glorious", "incandescent", "bug", "program",
-      "vexed", "captivate", "catastrophe", "iridescent", "magnificent",
-      "jubilant", "spectacular", "colossal", "quizzical", "extravagant",
-      "exuberant", "fascinate", "mellifluous", "zephyr", "effervescent",
-      "whimsical", "preposterous", "wonderful", "benevolent", "luminous",
-      "grandiose", "serendipity", "enigmatic", "murmuration", "resplendent",
-      "effulgent", "melancholy", "quintessential", "bewilder", "vivacious",
-      "nurturing", "conundrum", "effervescent", "labyrinth", "evanescent",
-      "ephemeral", "enchanting", "effulgent", "iridescence", "phenomenal",
-      "splendiferous", "cynosure", "ebullient", "luminosity", "efflorescence",
-      "capricious", "resilient", "enigmatic", "surreptitious", "breathtaking",
-      "sensational", "effervescent", "lackadaisical", "flabbergasted", "serene",
-      "magnanimous", "petrichor", "perpendicular", "astounding", "diaphanous",
-      "mellifluous", "belligerent", "scintillating", "whimsical", "vibrant",
-      "effulgence", "evanescence", "resonate", "melodious", "labyrinthine",
-      "ebullience", "benevolence", "effervescence", "captivating", "enrapture",
-      "magnificence", "flummox", "bucolic", "iridescent", "resplendence",
-      "effortless", "languorous", "opulence", "cogent", "efficacious",
-      "scrumptious", "effulgent", "enchant", "resplendent", "magniloquent",
-      "whimsical", "breathtaking", "scintillate", "exquisite", "mellifluous",
-      "benevolence", "effulgence", "captivating", "enrapture", "magnificence",
-      "effervescent", "resonate", "melodious", "labyrinthine", "ebullience",
-      "buccaneer", "swift", "glorious", "incandescent", "bug", "program"
-    ];
-    
     var incorrectMovesAllowed = 7
     var totalWins = 0 {
         didSet {
